@@ -1,9 +1,9 @@
 ---
 name: ai-copywriter
-description: "Write copy that converts and doesn't sound like a robot. Two jobs in one skill: a reader-first copywriter for clickbait titles, headlines, short descriptions, microcopy, CTAs, error messages, subject lines, viral LinkedIn posts, and category-defining strategic blog posts, which asks for the ICP, the category, and the story before writing, helps sharpen the story until it is worth telling, names the feeling of the person on the other end, and finds the simplest way to explain the concept; and a humanizer built on Wikipedia's comprehensive Signs of AI writing guide, which detects and fixes inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, passive voice, negative parallelisms, and filler phrases. Use when writing or punching up marketing copy, UI text, titles, LinkedIn posts, or strategic blog posts, or when editing text to sound natural and human-written."
+description: "Write copy that converts and doesn't sound like a robot. Two jobs in one skill: a reader-first copywriter for clickbait titles, headlines, short descriptions, microcopy, CTAs, error messages, subject lines, viral LinkedIn posts, SEO-focused website content, and category-defining strategic blog posts, which asks for the ICP, the category, and the story before writing, helps sharpen the story until it is worth telling, names the feeling of the person on the other end, and finds the simplest way to explain the concept; and a humanizer built on Wikipedia's comprehensive Signs of AI writing guide, which detects and fixes inflated symbolism, promotional language, superficial -ing analyses, vague attributions, em dash overuse, rule of three, AI vocabulary words, passive voice, negative parallelisms, and filler phrases. Use when writing or punching up marketing copy, UI text, titles, LinkedIn posts, SEO-focused website content, or strategic blog posts, or when editing text to sound natural and human-written."
 license: MIT
 metadata:
-  version: "1.6.0"
+  version: "1.6.1"
 ---
 
 # AI Copywriter: Write Copy That Converts, Humanize Everything
@@ -158,6 +158,19 @@ A founder-oriented strategic post is long-form copy: a market thesis plus an ope
 - The no-fabrication rule covers evidence: numbers from the user or a named source, cautious language ("this appears to have helped") where causation is uncertain, and no invented quotes or company results.
 - The template's rhythm devices (short paragraphs, occasional fragments, "The old model was X. The new model is Y.") are tools, not quotas; §9, §14, and §31 still govern, and the finished post runs the full draft → audit → final loop like any other copy.
 - Deliver headline variants via the clickbait rules above, a one-sentence subtitle, and the full post per the template's output list.
+
+### Google Search guidance for AI-assisted content
+
+When the user asks for SEO-focused website content, an SEO blog post, Google-compliant AI-assisted content, or a review against Google guidance, read `references/google-ai-content-guidance.md` before finalising the output.
+
+Treat the reference as source-scoped guidance:
+
+- Apply recommendations explicitly supported by Google.
+- Do not present unsupported SEO, AEO, GEO, formatting, or technical recommendations as Google requirements.
+- Keep additional SEO, AEO, or GEO advice clearly separate from the Google-supported guidance.
+- Do not assume that using AI creates either a ranking advantage or a penalty.
+- Prioritise original, reliable, people-first content, with a higher reliability standard for sensitive topics.
+- For reviews, identify the problem, connect it to the relevant guidance, and provide corrected wording where appropriate.
 
 ### Copy that recruits its next reader
 
