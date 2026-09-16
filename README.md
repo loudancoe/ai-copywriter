@@ -190,6 +190,8 @@ Each format is the two questions applied to a different moment in the reader's d
 
 **Strategic blog posts.** The reader is a founder who suspects the playbook they are running is quietly decaying, and who has been burned by enough trend pieces to distrust big claims without mechanisms. So: open with the broken playbook and the contradiction, organize the history into named phases, give the new model a name that can spread, and deliver numbered strategies where every example explains what the company actually did. The full format lives in [references/strategic-blog-template.md](references/strategic-blog-template.md), and the finished post still clears all 33 patterns.
 
+**SEO-focused website content.** When a request involves SEO content, Google-compliant AI-assisted writing, or a review against Google guidance, the skill reads [references/google-ai-content-guidance.md](references/google-ai-content-guidance.md). It applies only recommendations supported by Google and keeps broader SEO, AEO, and GEO advice separate rather than presenting it as a Google requirement.
+
 ## The humanizer engine
 
 Based on [Wikipedia's "Signs of AI writing"](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide, maintained by WikiProject AI Cleanup, via [blader/humanizer](https://github.com/blader/humanizer). Every rewrite runs a draft, then an "obviously AI generated" audit pass, then a second rewrite to catch lingering AI-isms.
@@ -285,11 +287,14 @@ The second version sells harder than the first. It just doesn't sound like a pre
 
 - [enso.bot/research](https://enso.bot/research), the communication research behind the reader-first copywriting method
 - [references/linkedin-virality.md](references/linkedin-virality.md), the evidence-based guide behind the LinkedIn rules, with citations to the underlying sharing research
+- [references/google-ai-content-guidance.md](references/google-ai-content-guidance.md), the source-scoped Google guidance used for SEO content and AI-assisted content reviews
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), the source of the pattern list
 - [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup), the maintaining organization
 - [blader/humanizer](https://github.com/blader/humanizer), the upstream skill this one extends (MIT)
 
 ## Version history
+
+- **1.6.1** - Added source-scoped Google guidance for SEO-focused and AI-assisted website content. Relevant requests now load `references/google-ai-content-guidance.md`, apply Google-supported recommendations, and keep broader SEO, AEO, and GEO advice clearly separate. No change to the 33 patterns.
 
 - **1.6.0** - Added strategic blog posts to the copywriting mode, backed by a full template (references/strategic-blog-template.md): category-defining, founder-oriented posts that open with a broken playbook, explain the market's evolution in named phases, name the emerging model, and deliver four to seven numbered strategies with mechanisms and operating lessons. The template runs on the skill's existing machinery: the intake supplies the reader, category, and observed pattern, the reader-first questions shape the headline and introduction, the no-fabrication rule governs all evidence, and the finished post passes the full 33-pattern humanizer audit. No change to the 33 patterns.
 - **1.5.1** - Portability fix for stricter skill importers (reported against Manus): flattened the frontmatter description from a multi-line YAML block scalar to a single-line quoted string, and replaced the README's paste-based Manus instructions with the native install path (Settings, Skills, + Add, GitHub import or ZIP upload). No change to behavior or the 33 patterns.
